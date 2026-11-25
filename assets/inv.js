@@ -1,5 +1,5 @@
 // Tool Shield interactive inventory. State is saved in localStorage.
-// SEND_MODE: 'hook' = POST the list to the Tool Shield inventory Zapier hook (emails the lead from Nick's Outlook, CC the agent), mailto: only if the POST fails.
+// SEND_MODE: 'hook' = POST the list to the Tool Shield inventory Zapier hook (emails the lead a copy, CC the agent), mailto: only if the POST fails.
 //            'mailto' = open the lead's own email app (current fallback while the Outlook connection is being reconnected).
 var TS_SEND_MODE='hook',TS_INV_HOOK='https://hooks.zapier.com/hooks/catch/13623300/CQga7EMENaBrf5fpa/';
 (function(){
